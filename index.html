@@ -1,0 +1,44 @@
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="/img/iconoAlura.png" alt="logo de Alura">
+    </header>
+    <main>
+        <section class="section-left">
+            <textarea name="" class="text-area" id="" placeholder="Ingrese el texto aqui"></textarea>
+            <div class="btn-sec-left">
+                <input type="button" class="btn-encriptar" value="Encriptar">
+                <input type="button" class="btn-desencriptar" value="Desencriptar">
+            </div>
+        </section>
+        <section class="section-right">
+            <div class="conteiner-search">
+                <img src="/img/search-img.png" alt="imagen de busqueda">
+            </div>
+            <div class="container-message1 ">
+                <h3>Ningún mensaje fue encontrado</h3>
+            </div>
+            <div class="container-message2">
+                <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+            <div class="txt-result">
+                <h1>Mensaje:</h1>
+                <p class="txtMessage"></p>
+            </div>
+            <div class="container-btn-copy">
+                <input type="button" class="btn-copy" value="Copiar" onclick="copiarMensaje()">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Edgar Ruiz </p>
+    </footer>
+
+    <script src="/js/encriptar.js"></script>
+
+    
+</body>
+</html>
